@@ -1,0 +1,33 @@
+apex:
+  scraper:
+    keywords:
+      - "python developer"
+      - "java developer"
+      - "cloud engineer"
+      - "solutions architect"
+      - "project planner"
+      - "construction planner"
+      - "software engineer"
+      - "project engineer"
+      - "project manager"
+      - "data scientist"
+      - "AI engineer"
+      - "backend engineer"
+      - "remote software"
+    delay-min-ms: 2000
+    delay-max-ms: 5000
+    max-retries: 3
+    output-dir: output
+    schedule-cron: "0 0 */6 * * *"
+    boards:
+      remoteok: true
+      weworkremotely: true
+      remotive: true
+
+logging:
+  level:
+    com.apex: INFO
+    root: WARN
+
+server:
+  port: 8080
